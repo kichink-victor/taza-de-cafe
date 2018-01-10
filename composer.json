@@ -8,12 +8,21 @@
             "email": "vaguilar@kichink.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://localhost:8001"
+        }
+    ],
     "scripts": {
-        "post-root-package-install": [
-            "/usr/bin/php -i"
+        "post-create-project-cmd": [
+            "echo 'finished!'"
         ]
     },
+    "minimum-stability": "dev",
     "require": {
-        "kichink/api.kichink.com": "5.0.13"
+        "kichink/api.kichink.com": "@dev-master"
     }
 }
+
+
