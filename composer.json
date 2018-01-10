@@ -21,6 +21,6 @@
     },
     "minimum-stability": "dev",
     "require": {
-        "kichink/api.kichink.com": "@dev-master"
+        "kichink/api.kichink.com": "dev-master"
     }
 }
