@@ -1,0 +1,24 @@
+{
+    "name": "victoraguilar/taza-de-cafe",
+    "description": "Prueba de conepto de composer create-proyect usando un composer repository personalizado.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Victor Aguilar",
+            "email": "vaguilar@kichink.com"
+        }
+    ],
+    "repositories" : [
+        {
+            "type" : "composer", "url" : "http://localhost:8001/"
+        }
+    ],
+    "scripts": {
+        "post-root-package-install": [
+            "/usr/bin/php -i"
+        ]
+    },
+    "require": {
+        "kichink/api.kichink.com": "5.0.13"
+    }
+}
