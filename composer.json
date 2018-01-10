@@ -11,7 +11,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "/Users/victoraguilar/tmp/satis/komposer/packages.json"
+            "url": "http://localhost:8001"
         }
     ],
     "scripts": {
