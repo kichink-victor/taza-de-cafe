@@ -21,7 +21,7 @@
     },
     "minimum-stability": "dev",
     "require": {
-        "kichink/api.kichink.com": "5.0.13"
+        "kichink/api.kichink.com": "dev-master"
     }
 }
 
